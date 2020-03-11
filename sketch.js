@@ -1,7 +1,7 @@
 let seed = new Date().getTime();
 let debug = false;
 let step = 0;
-let maxSteps = 150;
+let maxSteps = 100;
 let run = true;
 let width;
 let height;
@@ -13,7 +13,7 @@ let fc = 0;
 let strikeGlowFrame = 0;
 let strikeDuration = 0;
 let strikeGlowDuration = 10;
-let crazyMode = true;
+let crazyMode = false;
 let lastFrameNewNode = 0;
 // let maxActiveBranches = 100;
 let activeBranches = 0;
