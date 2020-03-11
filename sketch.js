@@ -188,11 +188,13 @@ function draw() {
       fill(255, 255, 255, 255 * Math.random());
       rect(0, 0, width, height);
     }
-    strikeGlowFrame++;
 
     if (strikeGlowFrame > strikeGlowDuration + 10) {
+
       start();
     }
+
+    strikeGlowFrame++;
 
   }
 
@@ -235,6 +237,7 @@ function start() {
   maxPosY = 0;
   strikeGlowDuration = 10 + Math.random() * 25;
   strikeDuration = 15 + Math.random() * 25;
+  strikeGlowFrame = 0;
   seed = seed + 1;
   winnerPath = null;
   step = 0;
