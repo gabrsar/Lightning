@@ -8,9 +8,9 @@ How to run: Open index.html
 
 TODOS:
 - [ ] Use normal distribution
-- [ ] Force direction to bottom
-- [ ] Save path of the branch who hits the ground first and make it really bright
-- [ ] Glow sky when touch ground
+- [X] Force direction to bottom
+- [X] Save path of the branch who hits the ground first and make it really bright
+- [X] Glow sky when touch ground
 - [ ] Rain?
 - [ ] Clouds?
 

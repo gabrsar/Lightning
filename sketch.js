@@ -15,7 +15,7 @@ let strikeDuration = 0;
 let strikeGlowDuration = 10;
 let crazyMode = true;
 let lastFrameNewNode = 0;
-let maxActiveBranches = 100;
+// let maxActiveBranches = 100;
 let activeBranches = 0;
 
 function setup() {
